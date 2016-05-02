@@ -1,7 +1,7 @@
 
 .A {
   position: relative;
-  width: 136px;
+  width: 140px;
   height: 117px;
   border-bottom: 8px solid #000;
   bottom: -12px;
@@ -43,9 +43,9 @@
   transform: rotate(-29deg);
   position: absolute;
   content: '';
-  top: 120px;
-  left: 135px;
-  /*background-color: #ffffff;*/
+  top: 105px;
+  left: 136.5px;
+  background-color: #ffffff;
   width: 15px;
   height: 25px;
 }
