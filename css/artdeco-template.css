@@ -1,1 +1,15 @@
-/*siia faili kirjutad lehe css'i*/
+/*override default bootstrap*/
+html{
+
+}
+*, *::after, *::before{
+    box-sizing: initial;
+}
+body{
+	font-size: initial;
+}
+/*end of override*/
+ .deco-center{
+ 	display: table;
+    margin: 0 auto;
+ }
