@@ -1,3 +1,17 @@
+ .deco-center{
+ 	display: table;
+    margin: 0 auto;
+}
+.heading{
+	margin-bottom: 20px;
+}
+.alphabet{
+	margin-top: 20px;
+}
+
+
+
+
 /*override default bootstrap*/
 html{
 
@@ -9,7 +23,3 @@ body{
 	font-size: initial;
 }
 /*end of override*/
- .deco-center{
- 	display: table;
-    margin: 0 auto;
- }
