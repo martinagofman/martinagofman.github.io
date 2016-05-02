@@ -8,7 +8,37 @@
 .alphabet{
 	margin-top: 20px;
 }
+.links{
+	position: relative;
+}
+.links a{
+	font-family: futura;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #f9ff00;
+}
+.links img{
+	z-index: 0;
+}
+#link-ggl{
+	z-index: 1;
+	position: absolute;
+	left: 785px;
+	top: 125px;
+}
+#link-insta{
+	z-index: 1;
+	position: absolute;
+	left: 670px;
+	top: 570px;
+}
+#link-fb{
+	z-index: 1;
+	position: absolute;
+	left: 75px;
+	top: 400px;
 
+}
 
 
 
