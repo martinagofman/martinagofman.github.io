@@ -10,6 +10,7 @@
 }
 .links{
 	position: relative;
+	z-index: 100;
 }
 .links a{
 	font-family: futura;
@@ -20,28 +21,60 @@
 .links img{
 	z-index: 0;
 }
-#link-ggl{
-	z-index: 1;
+.links .box{
+	border: 7px solid black;
+	background: #ffffff;
 	position: absolute;
-	left: 785px;
-	top: 125px;
-}
-#link-insta{
+	left: -150px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+	font-size: 16pt;
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
 	z-index: 1;
+}
+.links .box-outer{
+	position: relative;
+	left: 50%;
+}
+.links .box-outer .arrow:before{
+	z-index: 2;
+	content: '';
 	position: absolute;
-	left: 670px;
-	top: 570px;
+	top: -26px;
+	background: url("../images/icons/arrow.png") no-repeat;
+	width: 40px;
+	height: 40px;
+	background-size: 40px;
 }
-#link-fb{
-	z-index: 1;
+.links .box .text{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-right: -26px;
+	height: 400px;
+	padding-right: 25px;
+}
+.links #instruction{
 	position: absolute;
 	left: 75px;
 	top: 400px;
 }
+.links #about{
+	position: absolute;
+	left: 785px;
+	top: 125px;
+}
+.links #download{
+	position: absolute;
+	left: 670px;
+	top: 570px;
+}
 .bottom{
 	margin-bottom: 
 }
-
 
 
 
